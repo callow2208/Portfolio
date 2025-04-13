@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="container-fluid" id="projects" style="height: 80vh; background: linear-gradient(rgba(7, 6, 6, 0.5), rgba(5, 5, 5, 0.5)), url('img/hero.jpg'); background-size: cover; background-position: center">
+      <!-- ..................................................NAVBAR........................................................ -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">MyPortfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>   
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ..................................................HOME PAGE........................................................ -->
+      
+      <section class="text-white text-center" style="height: 100vh; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero.jpg'); background-size: cover; background-position: center;" id="home">
+        <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 class="display-4">Build Your Dreams</h1>
+          <p class="lead">Transforming ideas into reality with code and design.</p>
+            <div class="d-flex gap-2 mt-3">
+                <a href="#project-section"><button type="button" class="btn btn-outline-primary">Projects</button></a>
+                <a href="#contact"><button type="button" class="btn btn-primary">Contact</button></a>
+            </div>   
+        </div>
+      </section>
+      
+      <!-- ..................................................ABOUT PAGE........................................................ -->
+
+        <section class="container-fluid p-5" id="about">
+            <div class="row m-5">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>Welcome to My Portfolio! Here, creativity meets functionality as I showcase my passion for design, development, and innovation. From crafting intuitive user interfaces to building dynamic web applications, my work is driven by a commitment to excellence and a love for problem-solving. With each project, I aim to tell a story, create an impact, and bring ideas to life. Whether you're here to explore my latest projects or collaborate on something amazing, I’m excited to share my journey with you!</p>
+                    <div class="row g-2 aboutus">
+                        <div class="col-6 aboutus">
+                            <i class="bi bi-check2-circle"><span class="ms-2">Web Development Expertise</span></i>
+                        </div>
+                        <div class="col-6 aboutus">
+                            <i class="bi bi-check2-circle"><span class="ms-2">Android Applications</span></i>
+                        </div>
+                        <div class="col-6 aboutus">    
+                            <i class="bi bi-check2-circle"><span class="ms-2">UI/UX Designing</span></i>
+                        </div>
+                        <div class="col-6 aboutus">    
+                            <i class="bi bi-check2-circle"><span class="ms-2">SEO Optimization</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/about.jpg" alt="About Me" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- ..................................................PROJECT PAGE........................................................ -->
+        <section class="align-items-center justify-content-center pt-5 ps-5 pe-5" id="projects">
+          <div class="row text-center pb-5 ps-5 pe-5">
+            <h2 class="heading2">My Projects</h2>
+          </div>
+          <div class="row">
+            <div class="col-3 project-cards">
+              <div class="card project">
+                <h5 class="card-header">Project 1</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Website Development</h5>
+                  <p class="card-text">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 project-cards">
+              <div class="card project">
+                <h5 class="card-header">Project 2</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Website Development</h5>
+                  <p class="card-text">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 project-cards">
+              <div class="card project">
+                <h5 class="card-header">Project 2</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Website Development</h5>
+                  <p class="card-text">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 project-cards">
+              <div class="card project">
+                <h5 class="card-header">Project 3</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Website Development</h5>
+                  <p class="card-text">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ................................................PROCESS.............................................. -->
+          <div class="row text-center m-5">
+            <h2 class="heading2">Process I use for better Results</h2>
+          </div>
+            <div class="row">
+              <div class="col-4 process-cards">
+                <div class="card process">
+                  <h5 class="card-header process"><i class="bi bi-code-slash" id="icon-process"></i><div class="number-process">1</div></h5>
+                  <div class="card-body process">
+                    <h3> Website Development </h3>
+                    <p class="card-text process">We begin by gathering detailed information about your needs, goals, and expectations to ensure clarity.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 process-cards">
+                <div class="card process">
+                  <h5 class="card-header process">Project 2</h5>
+                  <div class="card-body process">
+                    <h5 class="card-title process">Website Development</h5>
+                    <p class="card-text process">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 process-cards">
+                <div class="card process`">
+                  <h5 class="card-header process">Project 3</h5>
+                  <div class="card-body process">
+                    <h5 class="card-title process">Website Development</h5>
+                    <p class="card-text process">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5 mb-5">
+              <div class="col-4 process-cards">
+                <div class="card process">
+                  <h5 class="card-header process">Project 4</h5>
+                  <div class="card-body process">
+                    <h5 class="card-title process">Website Development</h5>
+                    <p class="card-text process">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 process-cards">
+                <div class="card process">
+                  <h5 class="card-header process">Project 5</h5>
+                  <div class="card-body process">
+                    <h5 class="card-title process">Website Development</h5>
+                    <p class="card-text process">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 process-cards">
+                <div class="card process`">
+                  <h5 class="card-header process">Project 6</h5>
+                  <div class="card-body process">
+                    <h5 class="card-title process">Website Development</h5>
+                    <p class="card-text process">A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript. A responsive website built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <!-- ..................................................CONTACT PAGE........................................................ -->
+
+        <section class="CTA-section text-center" id="contact" style="background: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)); background-image: url(img/hero.jpg); height: 100vh; position: relative; background-position: center; background-attachment: fixed;">
+          <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+            <h2 class="heading2">Liked this website? Get in Touch</h2>
+            <p class="lead">Transform your Business With my  Designs</p>
+            <a href="#contact"><button type="button" class="btn btn-primary">Contact</button></a>   
+          </div>
+        </section>
+
+        <!-- Content Sections -->
+        <main class="container mt-5">
+          <!-- Placeholder for sections -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+          &copy; 2025 MyPortfolio. All rights reserved.
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="script.js"></script>
+    </section>
+  </body>
+</html>

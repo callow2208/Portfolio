@@ -1,0 +1,113 @@
+
+.container-fluid {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+/* .....................................HERO SECTION....................................... */
+button.btn.btn-outline-primary {
+    color: cornsilk;
+}
+
+
+
+/* .....................................ABOUT SECTION....................................... */
+.row.g-2.aboutus {
+    margin-top: 4rem;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+section#about {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px -5px 0px 5px rgb(255 255 255);
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* .....................................PROJECT SECTION....................................... */
+
+.card.project {
+    transition: transform 0.5s ease-in-out;
+}
+
+.card.project:hover {
+    transform: scale(1.05);
+}
+
+h5.card-header {
+    background-color: #000000;
+    color: white;
+}
+
+.card-body {
+    background-color: lavender;
+}
+
+a.btn.btn-primary {
+    background-color: black;
+    border-width: 0px;
+}
+
+h5.card-header.process {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+i.bi.bi-code-slash {
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    font-size: 35px;
+    width: 2em;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 2em;
+    align-items: center;
+}
+
+i.bi.bi-code-slash:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.process-number {
+    margin-bottom: 15%;
+    margin-left: 12%;
+    background-color: rgb(221, 221, 0);
+    color: black;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.process-number:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
