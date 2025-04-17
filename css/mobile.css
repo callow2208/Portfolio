@@ -1,0 +1,148 @@
+/* .............................................MAX WIDTH 430PX.................................................. */
+
+/* output correct in viewport maxwidth > 430px */
+@media (max-width: 430px) {
+
+    html, body {
+        /* background-color: #ffffff;
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 1.5; */
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
+    
+    /* CONTAINER FIT TO SCREEN */
+    /* .mobile {
+        width: 104% !important;
+    }
+     */
+    /* NAVBAR */
+
+    nav#navbar {
+        width: 100%;
+    }
+    
+    /* HOME SECTION */
+
+    section#home {
+        width: 100%;
+        }
+
+    .container.d-flex.flex-column.justify-content-center.align-items-center.h-100 {
+        width: 100%;
+    }
+
+    /* ABOUT US */
+
+    section#about {
+        width: 100%;
+        padding: 1% !important;
+    }
+
+    .row.m-5 {
+        margin: 5% !important;
+    }
+
+    p {
+        font-size: 80%;
+        text-align: justify;
+        padding-top: 5%;
+    }
+
+    .row.g-2.aboutus {
+        margin-top: 0%;
+        margin-bottom: 20%;
+        font-size: 80%;
+    }
+
+    /* PROJECT SECTION */
+
+    section#projects {
+        padding: 5% !important;
+    }
+
+    .row.text-center.pb-5.ps-5.pe-5 {
+        padding-bottom: 5% !important;
+    }
+    
+    .col-md-3.project-cards {
+        width: 50%;
+        padding-bottom: 5%;
+    }
+
+    h5.heading-5.card-header.project {
+        font-size: 100%;
+    }
+
+    h5.card-title.project {
+        font-size: 85%;
+        font-weight: 700;
+    }
+
+    a#project-button {
+        font-size: 80%;
+    }
+
+
+    /* Form Section */
+    .container.m-5 {
+        margin: 40px 0px 40px 0px !important;
+    }
+
+    input#name {
+        width: 95%;
+    }
+
+    input#email {
+        width: 95%;
+    }
+
+    textarea#message {
+        width: 95%;
+    }
+
+    .row.text-center.mb-5 {
+        margin-bottom: 5% !important;
+    }
+
+    section#contact {
+        margin-left: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+    h2.heading2 {
+        font-size: 100%;
+        font-weight: 900;
+    }
+    
+    p.lead {
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+
+/* .............................................MAX WIDTH 320PX.................................................. */
+
+
+
+
+/* .............................................MAX WIDTH 320PX.................................................. */
+
+
+
+
+/* .............................................MAX WIDTH 320PX.................................................. */
+
+
+
+
+/* .............................................MAX WIDTH 320PX.................................................. */
+
+
+
+
+/* .............................................MAX WIDTH 320PX.................................................. */

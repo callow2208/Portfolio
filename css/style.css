@@ -1,13 +1,64 @@
+/* .....................................BODY....................................... */
 
-.container-fluid {
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
+html,body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
 }
+
+/* .....................................NAVBAR....................................... */
+
+/* Transparent Navbar */
+#navbar {
+    background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Scrolled Navbar */
+#navbar.scrolled {
+    background-color: #343a40; /* Set your desired color */
+  }
+
+/* Navbar Text Color */
+#navbar .navbar-brand,
+#navbar .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Navbar Text Hover Effect */
+#navbar .nav-link:hover {
+  color: #ddd; /* Optional: Lighter shade on hover */
+}
+
+/* Solid Background Navbar Text */
+#navbar.scrolled .navbar-brand,
+#navbar.scrolled .nav-link {
+  color: white; /* Retain white or change to your preferred color for the solid background */
+}
+
+/* Hamburger */
+
+/* Default (Transparent Navbar) */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+  }
+  
+  /* Solid Navbar (On Scroll) */
+  #navbar.scrolled .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+  }
+  
+
 
 /* .....................................HERO SECTION....................................... */
 button.btn.btn-outline-primary {
     color: cornsilk;
 }
+
 
 
 
@@ -27,7 +78,10 @@ section#about {
     color: #ffffff;
 }
 
-
+.container-fluid {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
 
 .img-fluid {
     width: 100%;
@@ -51,31 +105,43 @@ section#about {
     transform: scale(1.05);
 }
 
-h5.card-header {
+h5.card-header.project {
     background-color: #000000;
     color: white;
 }
 
-.card-body {
+.card-body.project {
     background-color: lavender;
 }
 
-a.btn.btn-primary {
+a#project-button {
     background-color: black;
     border-width: 0px;
 }
 
+/* .....................................PROCESS IN PROJECT....................................... */
+
+/* PROJECT CARDS */
+.col-md-4.process-cards {
+    margin-bottom: 5%;
+}
+
+/* CARD HEADER */
 h5.card-header.process {
     height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #00000000;
+    box-shadow: 0px -6px 0px 0px rgb(0 0 0);
 
 }
 
-i.bi.bi-code-slash {
-    background-color: white;
-    color: black;
+/* ICON STYLE & TRANSITION*/
+
+i#icon-process {
+    background-color: #000000;
+    color: #ffffff;
     border-radius: 100%;
     font-size: 35px;
     width: 2em;
@@ -86,13 +152,15 @@ i.bi.bi-code-slash {
     align-items: center;
 }
 
-i.bi.bi-code-slash:hover {
-    background-color: black;
-    color: white;
+i#icon-process:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 
-.process-number {
+/* NUMBER PROCESS STYLE & TRANSITION*/
+
+.number-process {
     margin-bottom: 15%;
     margin-left: 12%;
     background-color: rgb(221, 221, 0);
@@ -106,8 +174,53 @@ i.bi.bi-code-slash:hover {
     position: absolute;
 }
 
-.process-number:hover {
-    background-color: black;
-    color: white;
+.number-process:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 0.5s;
 }
+
+/* CARD BODY */
+
+.card-body.process.p-5 {
+    background: linear-gradient(225deg, #5389ff8c, #ff88ce8c);
+}
+
+h3.card-body.heading {
+    font-family: 'bootstrap-icons';
+    font-size: 20px;
+    font-weight: 800;
+    color: #c22f63;
+    text-align: center;
+}
+
+p#text-process {
+    FONT-FAMILY: math;
+    font-size: large;
+    color: #0b5d4b;
+    line-break: auto;
+    line-height: 35px;
+    text-align: center;
+}
+
+/* .....................................CTA SECTION....................................... */
+
+section#contact {
+    margin: 0;
+    left: -50px;
+    width: 107%;
+}
+
+div#CTA-section\ content {
+    color: #ffffff;
+}
+
+button#CTA-section\ content {
+    background-color: black;
+    color: #ffffff;
+    border: 0;
+}
+
+/* .....................................................T....................................... */
+
+  
